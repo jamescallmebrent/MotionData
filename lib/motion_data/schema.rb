@@ -78,6 +78,8 @@ module MotionData
                            NSFloatAttributeType
                          elsif type == CoreTypes::Time
                            NSDateAttributeType
+                         elsif type == CoreTypes::Double
+                           NSDoubleAttributeType
                          else
                            # Transient types?
                            NSUndefinedAttributeType

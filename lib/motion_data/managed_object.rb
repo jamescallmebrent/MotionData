@@ -18,6 +18,9 @@ module MotionData
 
     class Time
     end
+
+    class Double
+    end
   end
 
   class ManagedObject < MotionDataManagedObjectBase
